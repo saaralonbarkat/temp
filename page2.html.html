@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>אפוסטיל דיגיטלי | האזור האישי הממשלתי</title>
+<style>
+:root{--blue:#0b5fd7;--blue-dark:#12355b;--blue-pale:#eef6ff;--ink:#18334f;--muted:#536b82;--line:#cfdae6;--surface:#fff;--page:#f5f8fc;--green:#177245;--green-pale:#eaf7f0;--amber:#8a5200;--amber-pale:#fff5df;--shadow:0 2px 10px rgba(25,54,85,.08);font-family:Arial,"Noto Sans Hebrew",sans-serif;color:var(--ink);background:var(--page)}
+*{box-sizing:border-box}body{margin:0}button,select,input{font:inherit}.prototype-bar{display:flex;justify-content:center;align-items:center;gap:12px;min-height:50px;padding:7px 16px;background:#e5ebf2;color:#40566d;font-size:14px}.prototype-label{font-weight:700}.demo-tabs{display:flex;border:1px solid #8fa4b8;border-radius:4px;overflow:hidden}.demo-tab{padding:7px 13px;border:0;border-left:1px solid #8fa4b8;background:#fff;color:var(--blue);cursor:pointer}.demo-tab:last-child{border-left:0}.demo-tab[aria-selected="true"]{background:var(--blue);color:#fff;font-weight:700}.topline{height:6px;background:var(--blue)}.shell{max-width:1180px;margin:22px auto;background:var(--surface);border:1px solid var(--line);box-shadow:var(--shadow)}header{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:20px 42px;border-bottom:1px solid var(--line)}.brand{font-size:18px;font-weight:700}.account{color:var(--muted)}main{padding:34px 56px 60px}.breadcrumbs{margin:0 0 20px;color:var(--muted);font-size:15px}.breadcrumbs a{color:var(--blue)}h1{margin:0 0 30px;font-size:36px}h2{margin:0 0 20px;font-size:26px}h3{margin:0 0 8px;font-size:20px}p,label,li,select{font-size:17px;line-height:1.55}.section{padding:30px 0;border-top:1px solid var(--line)}.section:first-of-type{padding-top:0;border-top:0}.request-list{display:grid;gap:14px}.request-card{display:grid;grid-template-columns:minmax(230px,1.25fr) minmax(180px,.85fr) minmax(210px,.9fr);gap:22px;align-items:center;padding:20px 22px;border:1px solid var(--line);border-radius:4px}.request-meta{display:grid;gap:4px;margin:0;color:var(--muted);font-size:15px}.status{display:inline-block;width:max-content;max-width:100%;padding:6px 11px;border-radius:16px;font-size:15px;font-weight:700}.status-waiting{background:var(--amber-pale);color:var(--amber)}.status-progress{background:var(--blue-pale);color:var(--blue-dark)}.status-ready{background:var(--green-pale);color:var(--green)}.actions{display:flex;flex-wrap:wrap;gap:10px;justify-content:flex-end}.primary,.outline,.text-link{font-weight:700;cursor:pointer}.primary,.outline{display:inline-block;padding:11px 17px;border-radius:3px;text-decoration:none}.primary{border:1px solid var(--blue);background:var(--blue);color:#fff}.primary:disabled{border-color:#a9b7c4;background:#a9b7c4;cursor:not-allowed}.outline{border:1px solid var(--blue);background:#fff;color:var(--blue)}.text-link{color:var(--blue);text-decoration:underline}.digital-warning{grid-column:1/-1;margin:0;padding:13px 16px;background:var(--blue-pale);border-right:4px solid var(--blue);font-size:15px}.help{margin:18px 0 0}.empty-state{padding:38px 22px;text-align:center;border:1px solid var(--line);background:#fbfdff}.empty-state p{margin:0 0 18px;font-size:19px}.intro{margin:0 0 22px;max-width:820px}.field{max-width:570px}.field label,.question{display:block;margin-bottom:8px;font-weight:700}.field select{width:100%;padding:12px 14px;border:1px solid #91a6bb;border-radius:3px;background:#fff;color:var(--ink)}.feedback{max-width:820px;margin:18px 0 0;padding:18px 20px;border-right:5px solid}.feedback p{margin:0}.feedback p+.text-link{display:inline-block;margin-top:12px}.feedback.good{border-color:var(--green);background:var(--green-pale)}.feedback.bad{border-color:var(--amber);background:var(--amber-pale)}.documents{max-width:820px;margin-top:30px}.documents h3{font-size:22px;margin-bottom:4px}.document-list{margin:14px 0 0;padding:0;border-top:1px solid var(--line);list-style:none}.document-item{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:16px 2px;border-bottom:1px solid var(--line)}.document-name{font-size:17px;font-weight:700}.order-panel{max-width:820px;margin-top:30px;padding:25px;border:1px solid var(--line);border-top:5px solid var(--blue);background:#fbfdff}.order-panel>h3{font-size:23px;margin-bottom:22px}.radio-group{display:flex;flex-wrap:wrap;gap:14px 28px}.radio-option{display:flex;align-items:center;gap:8px}.radio-option input{width:19px;height:19px}.family-field{margin-top:20px}.summary{margin-top:26px;padding-top:24px;border-top:1px solid var(--line)}.summary h4{margin:0 0 16px;font-size:21px}.summary dl{display:grid;grid-template-columns:170px 1fr;gap:10px 18px;margin:0 0 20px}.summary dt{font-weight:700}.summary dd{margin:0}.fee{display:flex;justify-content:space-between;gap:20px;padding:14px 16px;background:var(--blue-pale);font-size:18px;font-weight:700}.summary .primary{margin-top:18px}.success{margin-top:24px;padding:24px;border-right:5px solid var(--green);background:var(--green-pale)}.success h3{margin:0}.missing{max-width:820px;margin-top:26px;padding-top:22px;border-top:1px solid var(--line)}.missing h3{font-size:19px;margin-bottom:8px}.footer{padding:24px 42px;border-top:1px solid var(--line);color:var(--muted);font-size:14px}button:focus-visible,a:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid #f0bf35;outline-offset:2px}[hidden]{display:none!important}
+@media(max-width:780px){.prototype-bar{flex-wrap:wrap}.shell{margin:0;border:0}.shell header{padding:18px}.account{font-size:14px}main{padding:26px 18px 44px}h1{font-size:31px}.request-card{grid-template-columns:1fr;gap:14px}.actions{justify-content:flex-start}.document-item{align-items:flex-start;flex-direction:column}.order-panel{padding:20px 16px}.summary dl{grid-template-columns:1fr;gap:3px}.summary dd{margin-bottom:8px}.fee{flex-direction:column;gap:3px}.footer{padding:20px 18px}}
+.shell{max-width:1320px;display:grid;grid-template-columns:minmax(0,1fr) 276px;grid-template-rows:auto 1fr auto;direction:ltr}.shell>header,.shell>main,.shell>.footer{grid-column:1;direction:rtl}.shell>header{grid-row:1}.shell>main{grid-row:2}.shell>.footer{grid-row:3}.sidebar{grid-column:2;grid-row:1/4;direction:rtl;min-height:100%;border-right:1px solid var(--line);background:#fff;color:#173f6b}.mygov{display:flex;align-items:center;justify-content:center;gap:8px;height:82px;border-bottom:1px solid var(--line);color:#0873e8;font-size:35px;line-height:1;font-family:Arial,sans-serif;letter-spacing:-2px}.mygov-mark{display:grid;place-items:center;width:25px;height:29px;border:1.5px solid #0873e8;border-radius:2px;font-size:12px;font-weight:700;letter-spacing:0}.side-nav{padding:8px 0 18px}.side-item{position:relative;display:flex;align-items:center;gap:14px;min-height:56px;padding:10px 25px;color:#173f6b;text-decoration:none;font-size:17px}.side-item:hover{background:#f3f7fc}.side-item svg{flex:0 0 25px;width:25px;height:25px;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}.side-item.active{background:#edf5ff;color:var(--blue);font-weight:700}.side-item.active::before{content:"";position:absolute;inset:0 0 0 auto;width:5px;background:var(--blue)}.side-section-title{margin:18px 25px 8px;color:#4b3d2f;font-size:17px;font-weight:700}.side-bottom{display:grid;place-items:center;min-height:92px;margin-top:auto;border-top:1px solid var(--line);color:#173f6b}.side-bottom svg{width:48px;height:48px;fill:none;stroke:currentColor;stroke-width:1.6}.sidebar-note{margin:8px 25px 0;color:var(--muted);font-size:13px;line-height:1.4}main{padding:34px 42px 60px}
+@media(max-width:980px){.shell{display:block}.sidebar{border-right:0;border-bottom:1px solid var(--line)}.mygov{height:64px}.side-nav{display:flex;align-items:center;gap:6px;padding:8px 12px;overflow-x:auto}.side-item{min-height:45px;padding:8px 12px;white-space:nowrap;border:1px solid var(--line);border-radius:3px}.side-item.active::before{inset:auto 0 0;width:auto;height:4px}.side-section-title,.sidebar-note,.side-bottom,.side-item.secondary{display:none}.shell>header,.shell>main,.shell>.footer{grid-column:auto}}
+</style>
+</head>
+<body>
+<div class="prototype-bar">
+  <span class="prototype-label" id="demo-state-label">מצב הבקשות:</span>
+  <div class="demo-tabs" role="tablist" aria-labelledby="demo-state-label">
+    <button class="demo-tab" id="requests-view-tab" type="button" role="tab" aria-selected="true" aria-controls="request-list" data-request-view="requests">יש בקשות קודמות</button>
+    <button class="demo-tab" id="empty-view-tab" type="button" role="tab" aria-selected="false" aria-controls="empty-state" data-request-view="empty" tabindex="-1">עדיין אין בקשות</button>
+  </div>
+</div>
+<div class="topline"></div>
+<div class="shell">
+  <aside class="sidebar" aria-label="ניווט באזור האישי">
+    <div class="mygov" aria-label="mygov"><span>mygov</span><span class="mygov-mark">IL</span></div>
+    <nav class="side-nav">
+      <a class="side-item secondary" href="#">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12a9 9 0 1 0 3-6.7"/><path d="M3 4v5h5"/><path d="M12 7v5l3 2"/></svg>
+        <span>היסטוריית פעולות</span>
+      </a>
+      <a class="side-item" href="#new-order">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 2 1.4 5.1L18 4.5l-2.6 4.6L21 10l-5.1 1.5 3.6 4-4.9-2.1.4 5.6-3-4.8-3 4.8.4-5.6-4.9 2.1 3.6-4L3 10l5.6-.9L6 4.5l4.6 2.6Z"/></svg>
+        <span>פעולות ושירותים</span>
+      </a>
+      <a class="side-item active" href="#" aria-current="page">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 2.8h8l4 4V21H6z"/><path d="M14 2.8V7h4"/><circle cx="12" cy="14" r="3"/><path d="m10.4 16.5-.5 2.3 2.1-1 2.1 1-.5-2.3"/></svg>
+        <span>אפוסטיל דיגיטלי</span>
+      </a>
+      <a class="side-item secondary" href="#">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        <span>הרשות המקומית שלי</span>
+      </a>
+      <a class="side-item secondary" href="#">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2.5"/><path d="M3 20v-2a6 6 0 0 1 12 0v2M14 15a5 5 0 0 1 7 4.5V20"/></svg>
+        <span>ניהול הרשאות</span>
+      </a>
+      <h2 class="side-section-title">המידע שלי</h2>
+      <a class="side-item secondary" href="#">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 9V4m14 5V4M3 8h18v13H3z"/><path d="M7 2v4m10-4v4M8 13h4v4H8z"/><circle cx="17" cy="15" r="3"/></svg>
+        <span>ההורים שלי</span>
+      </a>
+      <a class="side-item secondary" href="#">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 16-2-1v-4l2-1 2-4h10l2 4 2 1v4l-2 1"/><path d="M5 16v3h3v-3m8 0v3h3v-3M7 11h10M8 14h.01M16 14h.01"/></svg>
+        <span>נהיגה וכלי תחבורה</span>
+      </a>
+      <a class="side-item secondary" href="#">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 4v6a4 4 0 0 0 8 0V4M6 4h4m4 0h4"/><path d="M12 14v2a4 4 0 0 0 8 0v-3"/><circle cx="20" cy="11" r="2"/></svg>
+        <span>בריאות</span>
+      </a>
+      <a class="side-item secondary" href="#">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 21V9l7-5v17m0-12 6-4v16m0-9h5v9M6 12h1m-1 4h1m6-4h1m-1 4h1m5 0h.01"/></svg>
+        <span>נכסים, בנייה ודיור</span>
+      </a>
+      <a class="side-item secondary" href="#">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><ellipse cx="8" cy="6" rx="5" ry="2.5"/><path d="M3 6v5c0 1.4 2.2 2.5 5 2.5m0-5c2.8 0 5-1.1 5-2.5v4"/><ellipse cx="16" cy="15" rx="5" ry="2.5"/><path d="M11 15v4c0 1.4 2.2 2.5 5 2.5s5-1.1 5-2.5v-4"/></svg>
+        <span>כסף וביטוח</span>
+      </a>
+      <a class="side-item secondary" href="#">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V4h8v3M9 11v6m6-6v6"/></svg>
+        <span>תעסוקה והשכלה</span>
+      </a>
+      <p class="sidebar-note">הפריט הפעיל מציג את אזור האפוסטיל הדיגיטלי.</p>
+    </nav>
+    <div class="side-bottom" aria-hidden="true"><svg viewBox="0 0 64 64"><rect x="10" y="19" width="44" height="32" rx="4"/><path d="M23 19v-6h18v6M10 31h44M28 29h8v7h-8z"/></svg></div>
+  </aside>
+  <header>
+    <div class="brand">האזור האישי הממשלתי</div>
+    <div class="account">שלום, ישראל ישראלי</div>
+  </header>
+
+  <main>
+    <p class="breadcrumbs"><a href="#">האזור האישי</a> / אפוסטיל דיגיטלי</p>
+    <h1>אפוסטיל דיגיטלי</h1>
+
+    <section class="section" aria-labelledby="requests-title">
+      <h2 id="requests-title">בקשות האפוסטיל שלי</h2>
+
+      <div class="request-list" id="request-list" role="tabpanel" aria-labelledby="requests-view-tab">
+        <article class="request-card">
+          <div>
+            <h3>תעודת לידה</h3>
+            <p class="request-meta"><span><strong>עבור:</strong> מאיה ישראלי</span><span><strong>להגשה ב:</strong> צרפת</span><span><strong>הוגשה בתאריך:</strong> 8.10.2026</span></p>
+          </div>
+          <div><span class="status status-waiting">הבקשה ממתינה לתשלום</span></div>
+          <div class="actions"><a class="primary" href="#payment">לתשלום</a></div>
+        </article>
+
+        <article class="request-card">
+          <div>
+            <h3>תעודת נישואין</h3>
+            <p class="request-meta"><span><strong>עבור:</strong> ישראל ישראלי</span><span><strong>להגשה ב:</strong> גרמניה</span><span><strong>הוגשה בתאריך:</strong> 6.10.2026</span></p>
+          </div>
+          <div><span class="status status-progress">הבקשה בטיפול</span></div>
+          <div class="actions"><a class="outline" href="#">לפרטי הבקשה</a></div>
+        </article>
+
+        <article class="request-card">
+          <div>
+            <h3>תמצית רישום מורחבת</h3>
+            <p class="request-meta"><span><strong>עבור:</strong> ישראל ישראלי</span><span><strong>להגשה ב:</strong> ספרד</span><span><strong>הוגשה בתאריך:</strong> 2.10.2026</span></p>
+          </div>
+          <div><span class="status status-ready">המסמך מוכן</span></div>
+          <div class="actions"><a class="primary" href="#">להורדת המסמך</a><a class="outline" href="https://eregister.justice.gov.il" target="_blank" rel="noopener">לבדיקת האפוסטיל</a></div>
+          <p class="digital-warning"><strong>אין להדפיס את המסמך והאפוסטיל הדיגיטליים.</strong> יש להעביר את הקבצים הדיגיטליים המקוריים.</p>
+        </article>
+      </div>
+
+      <div class="empty-state" id="empty-state" role="tabpanel" aria-labelledby="empty-view-tab" hidden>
+        <p>עדיין לא הגשת בקשה לאפוסטיל.</p>
+        <a class="primary" href="#new-order">להזמנת מסמך</a>
+      </div>
+
+      <p class="help"><a class="text-link" href="#">נתקלתם בקושי בהזמנה או בהורדת המסמך?</a></p>
+    </section>
+
+    <section class="section" id="new-order" aria-labelledby="new-order-title">
+      <h2 id="new-order-title">הזמנת מסמך חדש</h2>
+      <p class="intro">את המסמכים הבאים אפשר להזמין כשהם חתומים בחתימת אפוסטיל דיגיטלי.</p>
+
+      <div class="field">
+        <label for="country">באיזו מדינה תגישו את המסמך?</label>
+        <select id="country">
+          <option value="">בחרו מדינה</option>
+        </select>
+      </div>
+
+      <div class="feedback good" id="hague-yes" role="status" hidden>
+        <p>המדינה שבחרתם חברה באמנת האג. אפשר להמשיך לבחירת המסמך.</p>
+      </div>
+
+      <div class="feedback bad" id="hague-no" role="status" hidden>
+        <p>המדינה שבחרתם אינה חברה באמנת האג, ולכן לא ניתן לקבל עבור המסמך אפוסטיל.</p>
+        <a class="text-link" href="דף-אימות-מסמכים-מלא.html">להנחיות לאימות המסמך</a>
+      </div>
+
+      <div class="documents" id="documents" hidden>
+        <h3>איזה מסמך תרצו להזמין?</h3>
+        <ul class="document-list">
+          <li class="document-item"><span class="document-name">תעודת לידה</span><button class="outline choose-doc" type="button" data-document="תעודת לידה">להזמנת המסמך</button></li>
+          <li class="document-item"><span class="document-name">תעודת פטירה</span><button class="outline choose-doc" type="button" data-document="תעודת פטירה">להזמנת המסמך</button></li>
+          <li class="document-item"><span class="document-name">תמצית רישום מורחבת</span><button class="outline choose-doc" type="button" data-document="תמצית רישום מורחבת">להזמנת המסמך</button></li>
+          <li class="document-item"><span class="document-name">תעודת נישואין</span><button class="outline choose-doc" type="button" data-document="תעודת נישואין">להזמנת המסמך</button></li>
+          <li class="document-item"><span class="document-name">צו ירושה או צו קיום צוואה</span><button class="outline choose-doc" type="button" data-document="צו ירושה או צו קיום צוואה">להזמנת המסמך</button></li>
+        </ul>
+      </div>
+
+      <form class="order-panel" id="order-panel" hidden>
+        <h3 id="order-heading"></h3>
+        <fieldset style="margin:0;padding:0;border:0">
+          <legend class="question">עבור מי תרצו להזמין את המסמך?</legend>
+          <div class="radio-group">
+            <label class="radio-option"><input type="radio" name="recipient" value="self"> עבורי</label>
+            <label class="radio-option"><input type="radio" name="recipient" value="family"> עבור בן או בת משפחה</label>
+          </div>
+        </fieldset>
+
+        <div class="field family-field" id="family-field" hidden>
+          <label for="family">בחרו את בן או בת המשפחה</label>
+          <select id="family"><option value="">בחרו מהרשימה</option></select>
+        </div>
+
+        <div class="summary" id="summary" hidden>
+          <h4>בדקו שהפרטים נכונים לפני התשלום</h4>
+          <dl>
+            <dt>המסמך</dt><dd id="summary-document"></dd>
+            <dt>עבור</dt><dd id="summary-recipient"></dd>
+            <dt>להגשה ב</dt><dd id="summary-country"></dd>
+          </dl>
+          <div class="fee"><span>אגרת אפוסטיל</span><span>41 ש״ח</span></div>
+          <button class="primary" id="submit-order" type="submit">לתשלום ולהגשת הבקשה</button>
+        </div>
+      </form>
+
+      <div class="success" id="success" role="status" hidden>
+        <h3>הבקשה הוגשה בהצלחה</h3>
+      </div>
+
+      <div class="missing">
+        <h3>לא מצאתם את המסמך שחיפשתם?</h3>
+        <a class="text-link" href="דף-אימות-מסמכים-מלא.html">בדקו כיצד ניתן לאמת את המסמך</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">מדינת ישראל · האזור האישי הממשלתי</footer>
+</div>
+
+<script>
+const countryCodes='AF AL DZ AD AO AG AR AM AU AT AZ BS BH BD BB BY BE BZ BJ BT BO BA BW BR BN BG BF BI CV KH CM CA CF TD CL CN CO KM CD CG CK CR CI HR CU CY CZ DK DJ DM DO EC EG SV GQ ER EE SZ ET FJ FI FR GA GM GE DE GH GR GD GT GN GW GY HT VA HN HK HU IS IN ID IR IQ IE IT JM JP JO KZ KE KI KP KR XK KW KG LA LV LB LS LR LY LI LT LU MO MG MW MY MV ML MT MH MR MU MX FM MD MC MN ME MA MZ MM NA NR NP NL NZ NI NE NG NU MK NO OM PK PW PS PA PG PY PE PH PL PT QA RO RU RW KN LC VC WS SM ST SA SN RS SC SL SG SK SI SB SO ZA SS ES LK SD SR SE CH SY TW TJ TZ TH TL TG TO TT TN TR TM TV UG UA AE GB US UY UZ VU VE VN YE ZM ZW'.split(' ');
+const hagueCodes=new Set('AL DZ AD AG AR AM AU AT AZ BS BH BD BB BY BE BZ BO BA BW BR BN BG BI CV CA CL CN CO CK CR HR CY CZ DK DM DO EC SV EE SZ FJ FI FR GE DE GR GD GT GY HN HU IS IN ID IE IT JM JP KZ XK KG LV LS LR LI LT LU MW MT MH MU MX MC MN ME MA NA NL NZ NI NU MK NO OM PK PW PA PY PE PH PL PT KR MD RO RU RW KN LC VC WS SM ST SA SN RS SC SG SK SI ZA ES SR SE CH TJ TO TT TN TR UA GB US UY UZ VU VE VN HK MO'.split(' '));
+const displayNames=new Intl.DisplayNames(['he'],{type:'region'});
+const countrySelect=document.getElementById('country');
+countryCodes.map(code=>({code,name:displayNames.of(code)||code})).sort((a,b)=>a.name.localeCompare(b.name,'he')).forEach(country=>{const option=document.createElement('option');option.value=country.code;option.textContent=country.name;countrySelect.appendChild(option)});
+
+const yes=document.getElementById('hague-yes'),no=document.getElementById('hague-no'),documents=document.getElementById('documents'),orderPanel=document.getElementById('order-panel'),success=document.getElementById('success');
+let selectedDocument='';
+countrySelect.addEventListener('change',()=>{
+  const chosen=countrySelect.value;
+  const isHague=chosen&&hagueCodes.has(chosen);
+  yes.hidden=!isHague;
+  no.hidden=!chosen||isHague;
+  documents.hidden=!isHague;
+  orderPanel.hidden=true;
+  success.hidden=true;
+});
+
+const familyByDocument={
+  'תעודת לידה':['מאיה ישראלי','עומר ישראלי'],
+  'תעודת פטירה':['רחל ישראלי'],
+  'תמצית רישום מורחבת':['מאיה ישראלי','עומר ישראלי'],
+  'תעודת נישואין':['דנה ישראלי'],
+  'צו ירושה או צו קיום צוואה':['דנה ישראלי','מאיה ישראלי']
+};
+const familyField=document.getElementById('family-field'),familySelect=document.getElementById('family'),summary=document.getElementById('summary');
+document.querySelectorAll('.choose-doc').forEach(button=>button.addEventListener('click',()=>{
+  selectedDocument=button.dataset.document;
+  document.getElementById('order-heading').textContent=selectedDocument;
+  document.querySelectorAll('input[name="recipient"]').forEach(input=>input.checked=false);
+  familyField.hidden=true;
+  summary.hidden=true;
+  success.hidden=true;
+  orderPanel.hidden=false;
+  orderPanel.scrollIntoView({behavior:'smooth',block:'start'});
+}));
+
+function updateFamilyOptions(){
+  familySelect.innerHTML='<option value="">בחרו מהרשימה</option>';
+  (familyByDocument[selectedDocument]||[]).forEach(name=>{const option=document.createElement('option');option.value=name;option.textContent=name;familySelect.appendChild(option)});
+}
+function updateSummary(){
+  const recipient=document.querySelector('input[name="recipient"]:checked');
+  if(!recipient){summary.hidden=true;return}
+  if(recipient.value==='family'&&!familySelect.value){summary.hidden=true;return}
+  document.getElementById('summary-document').textContent=selectedDocument;
+  document.getElementById('summary-recipient').textContent=recipient.value==='self'?'ישראל ישראלי':familySelect.value;
+  document.getElementById('summary-country').textContent=countrySelect.options[countrySelect.selectedIndex].textContent;
+  summary.hidden=false;
+}
+document.querySelectorAll('input[name="recipient"]').forEach(input=>input.addEventListener('change',()=>{
+  familyField.hidden=input.value!=='family';
+  if(input.value==='family'){updateFamilyOptions();familySelect.value=''}
+  updateSummary();
+}));
+familySelect.addEventListener('change',updateSummary);
+document.getElementById('order-panel').addEventListener('submit',event=>{
+  event.preventDefault();
+  orderPanel.hidden=true;
+  success.hidden=false;
+  success.scrollIntoView({behavior:'smooth',block:'center'});
+});
+
+const requestList=document.getElementById('request-list'),emptyState=document.getElementById('empty-state'),demoTabs=[...document.querySelectorAll('.demo-tab')];
+function showRequestView(view){
+  const showEmpty=view==='empty';
+  emptyState.hidden=!showEmpty;
+  requestList.hidden=showEmpty;
+  demoTabs.forEach(tab=>{
+    const selected=tab.dataset.requestView===view;
+    tab.setAttribute('aria-selected',String(selected));
+    tab.tabIndex=selected?0:-1;
+  });
+}
+demoTabs.forEach(tab=>tab.addEventListener('click',()=>showRequestView(tab.dataset.requestView)));
+</script>
+</body>
+</html>
